@@ -3,17 +3,25 @@
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-color: #f8f9fa;
+    background-color: #F8F9FA; /* Blanco Suave */
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #222;
+    background-color: #222222; /* Negro Grisáceo */
     color: white;
     padding: 40px 20px;
     font-size: 1.2rem;
+    position: relative;
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 10px;
+    filter: brightness(1.2); /* Hace que el logo se vea más integrado */
 }
 
 h1 {
@@ -32,7 +40,7 @@ p {
     font-size: 1.2rem;
     font-weight: bold;
     color: white;
-    background: #007BFF;
+    background: #007BFF; /* Azul Primario */
     text-decoration: none;
     border-radius: 6px;
     transition: 0.3s;
@@ -74,19 +82,9 @@ input {
 }
 
 footer {
-    background: #222;
+    background: #222222; /* Negro Grisáceo */
     color: white;
     padding: 20px;
     font-size: 0.9rem;
     margin-top: 40px;
-}
-#mensaje {
-    font-size: 1rem;
-    font-weight: bold;
-    margin-top: 10px;
-}
-.logo {
-    width: 150px;
-    display: block;
-    margin: 0 auto 20px;
 }
