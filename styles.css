@@ -36,6 +36,8 @@ p {
     text-decoration: none;
     border-radius: 6px;
     transition: 0.3s;
+    border: none;
+    cursor: pointer;
 }
 
 .cta-button:hover {
@@ -47,7 +49,7 @@ section {
     background: white;
     margin: 30px auto;
     width: 80%;
-    max-width: 900px;
+    max-width: 500px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -55,6 +57,20 @@ section {
 h2 {
     font-size: 2rem;
     font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 footer {
