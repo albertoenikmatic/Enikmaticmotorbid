@@ -85,3 +85,8 @@ footer {
     font-weight: bold;
     margin-top: 10px;
 }
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+}
